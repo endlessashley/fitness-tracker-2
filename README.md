@@ -17,5 +17,8 @@ To run it from your local server:
 * Visit http://localhost:3001 in your browser
 
 ## Screenshots
+![progresscharts](https://github.com/endlessashley/fitness-tracker-2/blob/902932da1773639629b9390174ade87afa3c21d0/images/Screen%20Shot%202021-10-10%20at%202.47.36%20AM.png)
+![workoutlog] (https://github.com/endlessashley/fitness-tracker-2/blob/902932da1773639629b9390174ade87afa3c21d0/images/Screen%20Shot%202021-10-10%20at%202.48.43%20AM.png)
+![prompts](https://github.com/endlessashley/fitness-tracker-2/blob/902932da1773639629b9390174ade87afa3c21d0/images/Screen%20Shot%202021-10-10%20at%202.49.20%20AM.png)
 
 
