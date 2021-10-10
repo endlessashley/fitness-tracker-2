@@ -13,6 +13,14 @@ app.use(express.json());
 app.use(logger("dev"));
 app.use(express.static(path.join(__dirname, "public")));
 
+const { MongoClient } = require('mongodb');
+const uri = "mongodb+srv://endlessashley:Mgw2patt!@cluster0.uqttk.mongodb.net/dbWorkout?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  client.close();
+});
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
